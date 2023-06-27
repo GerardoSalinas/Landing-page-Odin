@@ -89,6 +89,7 @@ li {
     justify-content: space-between;
     gap: 40px;
     height: auto;
+    margin-bottom: 75px;
 }
 
 .whole-portrait {
@@ -134,3 +135,21 @@ li {
     font-weight: 700;
 }
 
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 10px;
+    width: 950px;
+    /* justify-content: space-around; */
+}
+
+/* .banner-text {
+    display: flex;
+} */
