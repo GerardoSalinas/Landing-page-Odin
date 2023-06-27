@@ -67,8 +67,9 @@ li {
 }
 
 .placeholder {
-    background-color: #E5E7EB;
-    width:100px;
+    background-color: #6d747d;
+    display: flex;
+    align-items: center;
 }
 
 .second-card {
@@ -108,3 +109,28 @@ li {
     font-size: 14px;
     color: #6d7581;
 }
+
+.third-card {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+.text {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.author {
+    font-size: 18px;
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+}
+
