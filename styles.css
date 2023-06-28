@@ -44,7 +44,8 @@ li {
     justify-content: space-around;
     margin: 0px;
     background-color: #1F2937;
-    padding: 30px;
+    padding: 30px 0px 70px;
+
 }
 
 .title {
@@ -66,10 +67,29 @@ li {
     color: #E5E7EB;
 }
 
+.first-card-button {
+    box-sizing: border-box;
+    align-self: center;
+    height: 45px;
+    background-color: #3882F6;
+    margin: 0px;
+    border: 2px solid #3882F6;  
+    padding: 0px 40px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    font-weight: 650;
+    height: 40px;
+}
+
 .placeholder {
     background-color: #6d747d;
+    color: #F9FAF8;
     display: flex;
+    flex-basis: 500px;
     align-items: center;
+    justify-content: center;
+    margin: 30px 10px ;
+    padding: 0px 20px;
 }
 
 .second-card {
@@ -138,6 +158,7 @@ li {
 .banner-container{
     display: flex;
     justify-content: center;
+    margin: 35px 0px;
 }
 
 .banner {
@@ -147,9 +168,43 @@ li {
     border: 0px;
     border-radius: 10px;
     width: 950px;
+    margin: 50px 0px 50px 0px;
+    padding: 15px 50px 15px 50px;
+    justify-content: space-between;
     /* justify-content: space-around; */
 }
 
-/* .banner-text {
+.banner-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.banner-subtext {
+    margin-top: 5px;
+}
+
+.banner-button {
+    box-sizing: border-box;
+    align-self: center;
+    height: 45px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    margin: 20px 0px;
+    padding: 0px 40px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    font-weight: 650;
+}
+
+.footer-container {
     display: flex;
-} */
+    background-color: #1F2937;
+    justify-content: center;
+    justify-content: center;
+}
+
+.footer {
+    color: #F9FAF8;
+    margin: 25px 0px 15px;
+}
