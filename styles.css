@@ -52,12 +52,15 @@ li {
     font-size: 48px;
     font-weight: 800;
     color:#F9FAF8;
-    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .main-title {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
+    height: 400px;
     flex-basis: 420px;
 }
 
@@ -67,9 +70,14 @@ li {
     color: #E5E7EB;
 }
 
+.secondary-text {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
 .first-card-button {
     box-sizing: border-box;
-    align-self: center;
+    align-self: flex-start;
     height: 45px;
     background-color: #3882F6;
     margin: 0px;
@@ -82,14 +90,12 @@ li {
 }
 
 .placeholder {
-    background-color: #6d747d;
-    color: #F9FAF8;
     display: flex;
-    flex-basis: 500px;
+    flex-basis: 640px;
     align-items: center;
     justify-content: center;
-    margin: 30px 10px ;
-    padding: 0px 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .second-card {
