@@ -123,10 +123,12 @@ li {
 }
 
 .portrait{
+    display: flex;
     width: 135px;
     height: 135px;
     border: 4px solid #3882F6;
-    border-radius: 15px ;
+    border-radius: 15px;
+    padding: 7px;
     box-sizing: border-box;
 }
 
