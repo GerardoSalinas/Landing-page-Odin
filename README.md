@@ -12,5 +12,9 @@ Credits for respective images:
     *  <a href="https://www.flaticon.es/iconos-gratis/negocios-y-finanzas" title="negocios y finanzas iconos">Negocios y finanzas iconos creados por Graphix's Art - Flaticon</a>
     *  <a href="https://www.flaticon.es/iconos-gratis/biblioteca" title="biblioteca iconos">Biblioteca iconos creados por Kiranshastry - Flaticon</a>
 
+![final-result1](./resources/landing-page1.png)
+
+![final-result2](./resources/landing-page2.png)
+
 
 
